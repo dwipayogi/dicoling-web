@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy / Kebijakan Privasi — Dicoling</title>
+  <meta name="description" content="Kebijakan Privasi Dicoling (ID/EN): kamus linguistik Indonesia–Prancis yang offline, tanpa akun, tanpa iklan, tanpa pelacakan. Tidak mengumpulkan data pribadi." />
+  <link rel="canonical" href="https://dicoling.vercel.app/privacy-policy" />
+  <meta property="og:title" content="Privacy Policy / Kebijakan Privasi — Dicoling" />
+  <meta property="og:description" content="Dicoling berfungsi penuh secara offline. Kami tidak mengumpulkan, mengirim, menjual, atau membagikan data pribadi apa pun." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://dicoling.vercel.app/privacy-policy" />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="inner">
+      <a class="brand" href="/">Dico<span>ling</span></a>
+      <nav class="nav">
+        <a href="/">Beranda</a>
+        <a href="/privacy-policy">Privacy Policy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container policy">
+    <h1>Privacy Policy / Kebijakan Privasi — Dicoling</h1>
+    <p style="color:var(--muted);margin-top:0">
+      Dokumen ini adalah sumber tunggal untuk tautan Play Console (field Privacy Policy)
+      dan teks di dalam aplikasi.
+    </p>
+
+    <div class="meta-card">
+      <dl>
+        <dt>Aplikasi</dt>
+        <dd>Dicoling — Dictionnaire de Linguistique (Kamus Istilah Linguistik Indonesia–Prancis)</dd>
+        <dt>Pengembang</dt>
+        <dd>Tim Dicoling — Universitas Negeri Yogyakarta (Fakultas Bahasa, Seni, dan Budaya / FBSB)</dd>
+        <dt>Kontak privasi</dt>
+        <dd><a href="mailto:dicolingdev@gmail.com">dicolingdev@gmail.com</a></dd>
+        <dt>URL publik</dt>
+        <dd><a href="https://dicoling.vercel.app/privacy-policy">https://dicoling.vercel.app/privacy-policy</a></dd>
+        <dt>Di dalam aplikasi</dt>
+        <dd>Profil / Pengaturan → Kebijakan Privasi (<code>app/home/kebijakan-privasi.tsx</code>)</dd>
+        <dt>Tanggal efektif</dt>
+        <dd>2 Oktober 2026</dd>
+        <dt>Bahasa</dt>
+        <dd>Indonesia dan Inggris (Prancis tersedia di dalam aplikasi; substansi sama)</dd>
+      </dl>
+    </div>
+
+    <div class="lang-switch" role="tablist" aria-label="Pilih bahasa / Select language">
+      <button id="tab-id" role="tab" aria-selected="true" aria-controls="lang-id">🇮🇩 Indonesia</button>
+      <button id="tab-en" role="tab" aria-selected="false" aria-controls="lang-en">🇬🇧 English</button>
+    </div>
+
+    <!-- ============ BAHASA INDONESIA ============ -->
+    <section id="lang-id" role="tabpanel" aria-labelledby="tab-id">
+      <nav class="toc" aria-label="Daftar isi">
+        <strong>Daftar isi (Indonesia)</strong>
+        <ol>
+          <li><a href="#id-1">Pendahuluan</a></li>
+          <li><a href="#id-2">Ringkasan</a></li>
+          <li><a href="#id-3">Data yang TIDAK dikumpulkan</a></li>
+          <li><a href="#id-4">Data on-device</a></li>
+          <li><a href="#id-5">Penggunaan data</a></li>
+          <li><a href="#id-6">Berbagi &amp; pihak ketiga</a></li>
+          <li><a href="#id-7">Izin Android</a></li>
+          <li><a href="#id-8">Keamanan</a></li>
+          <li><a href="#id-9">Retensi &amp; penghapusan</a></li>
+          <li><a href="#id-10">Hak pengguna</a></li>
+          <li><a href="#id-11">Anak-anak</a></li>
+          <li><a href="#id-12">Perubahan kebijakan</a></li>
+          <li><a href="#id-13">Konsistensi Data Safety</a></li>
+        </ol>
+      </nav>
+
+      <h2 id="id-1">1. Pendahuluan</h2>
+      <p>Dicoling menghargai privasi Anda. Dicoling adalah aplikasi kamus linguistik dwibahasa (Indonesia–Prancis) yang <strong>berfungsi penuh secara offline, tanpa akun, tanpa login, tanpa registrasi, tanpa iklan, dan tanpa pelacakan</strong>. Dokumen ini menjelaskan secara komprehensif bagaimana aplikasi <strong>mengakses, mengumpulkan, menggunakan, menangani, dan membagikan</strong> data pengguna dan perangkat — sesuai kebijakan Google Play User Data (<a href="https://support.google.com/googleplay/android-developer/answer/10144311">support.google.com — User Data policy</a>).</p>
+
+      <h2 id="id-2">2. Ringkasan satu paragraf</h2>
+      <div class="callout"><strong>Kami tidak mengumpulkan, tidak mengirim, tidak menjual, dan tidak membagikan data pribadi apa pun.</strong> Satu-satunya data yang disimpan adalah <strong>preferensi bahasa antarmuka (ID/FR)</strong> di perangkat Anda. Database kamus (<code>kamus.db</code>) sudah termasuk di installer dan hanya dibaca secara lokal. Fitur salin hanya menulis teks ke clipboard atas perintah Anda dan tidak dikirim ke mana pun.</div>
+
+      <h2 id="id-3">3. Data yang TIDAK kami akses / kumpulkan / bagikan</h2>
+      <ul>
+        <li>Nama, alamat email, password, foto profil, nomor telepon, kontak, kalender.</li>
+        <li>Lokasi presisi/kasar, mikrofon/audio, kamera/galeri, sensor kesehatan, file pengguna.</li>
+        <li>Riwayat pencarian, isi clipboard (kami tidak pernah membaca clipboard), daftar aplikasi terinstal.</li>
+        <li>Identifier permanen (IMEI, IMSI, nomor seri SIM) maupun identifier yang dapat direset (Android Advertising ID, App Set ID) — <strong>tidak diakses dan tidak ditautkan ke data apa pun</strong>.</li>
+        <li>Data anak-anak — aplikasi tidak ditujukan untuk anak di bawah 13 tahun (lihat §11).</li>
+        <li>Kredensial login — tidak ada sistem akun sehingga tidak ada kredensial.</li>
+      </ul>
+
+      <h2 id="id-4">4. Data terbatas yang disimpan di perangkat (on-device only)</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Data</th><th>Teknologi</th><th>Isi</th><th>Ditransmisikan?</th><th>Dibagikan?</th></tr></thead>
+          <tbody>
+            <tr><td>Preferensi bahasa UI</td><td><code>AsyncStorage</code> kunci <code>@dicoling_language</code> (<code>contexts/LanguageContext.tsx</code>)</td><td><code>"ID"</code> atau <code>"FR"</code> saja</td><td>Tidak</td><td>Tidak</td></tr>
+            <tr><td>Leksikon kamus</td><td><code>expo-sqlite</code>, file <code>assets/db/kamus.db</code> (read-only, FTS5) via <code>services/repository.ts</code> (hanya <code>SELECT</code>)</td><td>Istilah, definisi, sitasi, contoh, analisis (konten publik akademik, bukan data pengguna)</td><td>Tidak</td><td>Tidak</td></tr>
+            <tr><td>Salinan manual</td><td><code>expo-clipboard</code> <code>setStringAsync()</code> di <code>app/home/[category]/[term].tsx:268</code></td><td>Teks istilah yang Anda ketuk “Salin”</td><td>Tidak</td><td>Tidak (hanya ke clipboard OS; terhapus saat restart / ditimpa)</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Tidak ada <code>INSERT/UPDATE/DELETE</code> data pengguna, tidak ada riwayat pencarian yang disimpan, tidak ada <code>fetch</code>/<code>axios</code>/<code>WebSocket</code>, tidak ada backend/API key/domain pelacakan.</p>
+
+      <h2 id="id-5">5. Penggunaan data</h2>
+      <p>Preferensi bahasa hanya dipakai untuk menampilkan antarmuka dan memilih kolom bahasa (<code>id</code>/<code>fr</code>) dari database lokal. Tidak dipakai untuk iklan, profiling, pengukuran, atau personalisasi lintas aplikasi.</p>
+
+      <h2 id="id-6">6. Berbagi, pihak ketiga, SDK, iklan, penjualan</h2>
+      <ul>
+        <li><strong>Tidak ada pihak ketiga / SDK pengumpul data</strong> (tanpa Firebase, Analytics, Crashlytics, AdMob, Facebook SDK).</li>
+        <li><strong>Tidak ada penjualan data</strong> dalam arti apa pun, termasuk transfer dengan imbalan uang.</li>
+        <li><strong>Tidak ada server kami</strong> — sehingga tidak ada transmisi jaringan berisi data pengguna (HTTPS N/A karena tidak ada upload). Transfer data ke penyedia layanan / hukum / merger tidak terjadi karena tidak ada data yang dikumpulkan.</li>
+        <li>Dependensi yang tersisa (<code>expo-sqlite, async-storage, expo-clipboard, expo-image, expo-font, expo-router, reanimated, gesture-handler, flash-list, safe-area</code>) hanya untuk UI/penyimpanan lokal dan tidak mengumpulkan data.</li>
+      </ul>
+
+      <h2 id="id-7">7. Izin (permissions) Android</h2>
+      <p>Build production hanya meminta:</p>
+      <ul>
+        <li><code>android.permission.INTERNET</code> dan <code>ACCESS_NETWORK_STATE</code> — izin normal bawaan Expo, <strong>tidak dipakai untuk mengirim data pengguna</strong> (tidak ada kode jaringan di aplikasi).</li>
+      </ul>
+      <p>Kami <strong>tidak meminta dan tidak menggunakan</strong> saat runtime: <code>CAMERA</code>, <code>READ/WRITE_EXTERNAL_STORAGE</code>, <code>READ_MEDIA_*</code>, <code>RECORD_AUDIO</code> (mikrofon), <code>ACCESS_FINE/COARSE_LOCATION</code>, <code>READ_CONTACTS</code>, <code>POST_NOTIFICATIONS</code>, <code>SYSTEM_ALERT_WINDOW</code>, <code>VIBRATE</code>.</p>
+      <p>Tidak ada permintaan runtime permission, sehingga <strong>Prominent Disclosure &amp; Consent tidak diperlukan</strong> — tidak ada dialog izin yang mendahului pengumpulan data sensitif karena tidak ada pengumpulan tersebut.</p>
+
+      <h2 id="id-8">8. Keamanan</h2>
+      <p>Karena tidak ada transmisi/pengumpulan, risiko kebocoran server nihil. Data on-device dilindungi sandbox OS Android/iOS. Kami tidak menautkan identifier permanen ke identifier resettable maupun ke data pribadi, sesuai larangan User Data policy.</p>
+
+      <h2 id="id-9">9. Retensi dan penghapusan</h2>
+      <ul>
+        <li>Preferensi bahasa: tersimpan sampai Anda menghapusnya via <strong>Pengaturan Android → Aplikasi → Dicoling → Penyimpanan → Hapus data</strong> atau uninstall.</li>
+        <li>Clipboard: tidak dipertahankan aplikasi; dikelola OS.</li>
+        <li>Database kamus: bagian dari aplikasi, bukan data pengguna; terhapus saat uninstall.</li>
+        <li><strong>Penghapusan akun (Account Deletion): tidak berlaku (N/A)</strong> — tidak ada pembuatan akun di dalam aplikasi, sehingga tidak ada endpoint hapus akun in-app maupun web yang diwajibkan. Jika Anda menghubungi kami, kami tidak memiliki data akun untuk dihapus.</li>
+      </ul>
+
+      <h2 id="id-10">10. Hak pengguna</h2>
+      <p>Menggunakan aplikasi anonim tanpa registrasi; mengubah bahasa kapan saja di Pengaturan; menghapus preferensi lokal via Hapus data/uninstall; menghubungi kami untuk pertanyaan di <a href="mailto:dicolingdev@gmail.com">dicolingdev@gmail.com</a>.</p>
+
+      <h2 id="id-11">11. Anak-anak</h2>
+      <p>Dicoling adalah referensi akademik untuk mahasiswa, dosen, peneliti, penerjemah, dan peminat linguistik (umum/dewasa).</p>
+
+      <h2 id="id-12">12. Perubahan kebijakan</h2>
+      <p>Perubahan materiil akan diperbarui di URL publik + halaman in-app dengan tanggal baru. Penggunaan berkelanjutan setelah pembaruan dianggap persetujuan.</p>
+
+      <h2 id="id-13">13. Konsistensi Data Safety (Play Console)</h2>
+      <p>Isi yang harus dipilih agar konsisten dengan dokumen ini:</p>
+      <ul>
+        <li><strong>Data collected:</strong> No personal data collected · No data shared with third parties.</li>
+        <li><strong>Location, Photos, Contacts, Account, Browsing:</strong> tidak dikumpulkan/dibagikan.</li>
+        <li><strong>Account deletion:</strong> N/A (no account creation).</li>
+        <li><strong>Ads / App Set ID / Advertising ID:</strong> tidak digunakan.</li>
+      </ul>
+    </section>
+
+    <!-- ============ ENGLISH ============ -->
+    <section id="lang-en" role="tabpanel" aria-labelledby="tab-en" hidden>
+      <nav class="toc" aria-label="Table of contents">
+        <strong>Contents (English)</strong>
+        <ol>
+          <li><a href="#en-1">Introduction</a></li>
+          <li><a href="#en-2">Summary</a></li>
+          <li><a href="#en-3">Data we do NOT collect</a></li>
+          <li><a href="#en-4">On-device data</a></li>
+          <li><a href="#en-5">Use</a></li>
+          <li><a href="#en-6">Sharing &amp; third parties</a></li>
+          <li><a href="#en-7">Android permissions</a></li>
+          <li><a href="#en-8">Security</a></li>
+          <li><a href="#en-9">Retention &amp; deletion</a></li>
+          <li><a href="#en-10">Your rights</a></li>
+          <li><a href="#en-11">Children</a></li>
+          <li><a href="#en-12">Changes</a></li>
+          <li><a href="#en-13">Data safety consistency</a></li>
+        </ol>
+      </nav>
+
+      <h2 id="en-1">1. Introduction</h2>
+      <p>Dicoling respects your privacy. Dicoling is a bilingual (Indonesian–French) linguistics dictionary that <strong>works fully offline, with no account, no login, no registration, no ads, and no tracking</strong>. This policy comprehensively discloses how the app <strong>accesses, collects, uses, handles, and shares</strong> user and device data, per the Google Play User Data policy (<a href="https://support.google.com/googleplay/android-developer/answer/10144311">support.google.com — User Data policy</a>).</p>
+
+      <h2 id="en-2">2. Summary</h2>
+      <div class="callout"><strong>We do not collect, transmit, sell, or share any personal data.</strong> The only stored data is the <strong>UI language preference (ID/FR)</strong> on your device. The dictionary database (<code>kamus.db</code>) ships inside the installer and is read locally. Copy only writes text to the clipboard when you tap it and is never transmitted.</div>
+
+      <h2 id="en-3">3. Data we do NOT access / collect / share</h2>
+      <p>Name, email, password, profile photo, phone, contacts, calendar; precise/coarse location; microphone/audio; camera/gallery; health sensors; user files; search history; clipboard contents (we never read the clipboard); installed-app inventory; persistent identifiers (IMEI, IMSI, SIM serial) or resettable identifiers (Advertising ID, App Set ID) — <strong>never accessed nor linked</strong>; children’s data (not directed to children under 13, §11); login credentials (no account system exists).</p>
+
+      <h2 id="en-4">4. Limited on-device data (only)</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Data</th><th>Technology</th><th>Content</th><th>Transmitted?</th><th>Shared?</th></tr></thead>
+          <tbody>
+            <tr><td>UI language preference</td><td><code>AsyncStorage</code> key <code>@dicoling_language</code></td><td><code>"ID"</code> or <code>"FR"</code> only</td><td>No</td><td>No</td></tr>
+            <tr><td>Dictionary lexicon</td><td><code>expo-sqlite</code>, bundled <code>assets/db/kamus.db</code> (read-only FTS5, <code>SELECT</code>-only)</td><td>Public academic terms/definitions/citations/examples (not user data)</td><td>No</td><td>No</td></tr>
+            <tr><td>Manual copy</td><td><code>expo-clipboard</code> <code>setStringAsync()</code></td><td>Term text you tap to copy</td><td>No</td><td>No (OS clipboard only)</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>No user-data writes, no stored search history, no <code>fetch</code>/<code>axios</code>/<code>WebSocket</code>, no backend.</p>
+
+      <h2 id="en-5">5. Use</h2>
+      <p>Language preference only selects UI strings and the local DB language column (<code>id</code>/<code>fr</code>). Never used for ads, profiling, measurement, or cross-app personalization.</p>
+
+      <h2 id="en-6">6. Sharing, third parties, SDKs, ads, sale</h2>
+      <p>No data-collecting third parties/SDKs (no Firebase/Analytics/Crashlytics/AdMob); no sale of data; no first-party server (so no user-data transmission — HTTPS N/A); remaining dependencies are local UI/storage only.</p>
+
+      <h2 id="en-7">7. Android permissions</h2>
+      <p>Production build requests only <code>INTERNET</code> + <code>ACCESS_NETWORK_STATE</code> (normal Expo defaults, <strong>not used to transmit user data</strong> — the app contains no networking code). We do <strong>not</strong> request or use <code>CAMERA</code>, storage, microphone, location, contacts, notifications, <code>SYSTEM_ALERT_WINDOW</code>, or <code>VIBRATE</code> at runtime. No runtime permission requests, so no Prominent Disclosure &amp; Consent flow is required.</p>
+
+      <h2 id="en-8">8. Security</h2>
+      <p>No collection/transmission means no server-breach surface. On-device data is protected by the Android/iOS sandbox. We never link persistent IDs to resettable IDs or personal data.</p>
+
+      <h2 id="en-9">9. Retention and deletion</h2>
+      <p>Language preference persists until <strong>Android Settings → Apps → Dicoling → Storage → Clear data</strong> or uninstall. Clipboard is OS-managed. The bundled DB is app content, removed on uninstall. <strong>Account deletion: N/A</strong> — no in-app account creation exists, so no in-app or web deletion endpoint is required.</p>
+
+      <h2 id="en-10">10. Your rights</h2>
+      <p>Use anonymously; change language anytime; clear local preference via Clear data/uninstall; contact us with questions at <a href="mailto:dicolingdev@gmail.com">dicolingdev@gmail.com</a>.</p>
+
+      <h2 id="en-11">11. Children</h2>
+      <p>Academic reference for university students, lecturers, researchers, translators, and linguistics enthusiasts (general/adult audience).</p>
+
+      <h2 id="en-12">12. Changes</h2>
+      <p>Material changes will update this public URL and the in-app page with a new date. Continued use after an update constitutes acceptance.</p>
+
+      <h2 id="en-13">13. Data safety consistency</h2>
+      <p>Select in Play Console: <strong>No personal data collected · No data shared · No location/photos/contacts/account · Account deletion N/A · No ads / App Set ID / Advertising ID.</strong></p>
+    </section>
+
+    <footer class="site-footer">
+      <p>Last updated / Tanggal efektif: <strong>2 Oktober 2026</strong> · Kontak privasi: <a href="mailto:dicolingdev@gmail.com">dicolingdev@gmail.com</a></p>
+      <p>Referensi: <a href="https://support.google.com/googleplay/android-developer/answer/10144311">Google Play User Data policy</a></p>
+    </footer>
+  </main>
+  <script src="/assets/js/policy.js" defer></script>
+</body>
+</html>
